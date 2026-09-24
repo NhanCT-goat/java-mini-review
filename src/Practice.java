@@ -17,6 +17,9 @@ public class Practice {
      * @param items an array of strings to print
      */
     public static void printItems(String[] items) {
+        for ( String i : items){
+            System.out.println(i);
+        }
         // TODO: Implement this method here!
     }
 
